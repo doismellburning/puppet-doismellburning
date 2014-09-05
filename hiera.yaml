@@ -1,0 +1,11 @@
+---
+:hierarchy:
+  - overrides/local_dev
+  - secrets
+  - "overrides/%{::fqdn}"
+  - "role/%{::role}"
+  - "environment/%{::environment}"
+  - "location/%{::location}"
+  - common
+:yaml:
+  :datadir: /opt/doismellburning/puppet/hiera

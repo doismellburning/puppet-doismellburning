@@ -1,3 +1,4 @@
 /.tmp/
 /modules/
-
+/.bundle
+/vendor

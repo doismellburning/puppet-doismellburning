@@ -3,6 +3,10 @@ bootstrap:
 	bundle install --no-deployment
 	bundle exec librarian-puppet install
 
+%(PHONY): test
+test:
+	bundle exec rake test
+
 %(PHONY): package
 package:
 	bundle install --deployment

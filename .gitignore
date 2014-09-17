@@ -2,3 +2,4 @@
 /modules/
 /.bundle
 /vendor
+/hiera-data/secrets.yaml

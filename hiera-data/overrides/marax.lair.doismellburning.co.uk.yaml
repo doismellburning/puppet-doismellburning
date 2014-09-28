@@ -1,0 +1,4 @@
+classes:
+  - doismellburning::roles::xbmc
+
+doismellburning::roles::xbmc::domain: xbmc.lair.doismellburning.co.uk
